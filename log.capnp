@@ -1054,8 +1054,8 @@ struct LongitudinalPlan @0xe00b5b3eba12876c {
   jerks @34 :List(Float32);
 
   # distance
-  distance @900 :Float32;
-  safeDistance @901 :Float32;
+  distance @37 :Float32;
+  safeDistance @38 :Float32;
 
   solverExecutionTime @35 :Float32;
 
