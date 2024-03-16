@@ -1053,6 +1053,9 @@ struct LongitudinalPlan @0xe00b5b3eba12876c {
   speeds @33 :List(Float32);
   jerks @34 :List(Float32);
 
+  # distance
+  leadDistance @900 :Float32;
+
   solverExecutionTime @35 :Float32;
 
   enum LongitudinalPlanSource {
