@@ -11,6 +11,7 @@ $Cxx.namespace("cereal");
 struct CustomReserved0 @0x81c2f05a394cf4af {
   distance @0 :Float32; # m
   safeDistance @1 :Float32; # m
+  leadDetected @2 :Bool;
 }
 
 struct CustomReserved1 @0xaedffd8f31e7b55d {
