@@ -350,8 +350,6 @@ struct CarControl {
 
     speed @6: Float32; # m/s
     accel @4: Float32; # m/s^2
-    distance @9 :Float32; # m
-    safeDistance @10 :Float32; # m
     longControlState @5: LongControlState;
 
     enum LongControlState @0xe40f3a917d908282{
